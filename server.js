@@ -7,7 +7,7 @@ const connectDb = require("./config/connectDb");
 // config dot env file
 dotenv.config();
 
-//databse call
+//database call
 connectDb();
 
 //rest object
@@ -22,7 +22,7 @@ app.use(cors());
 app.use("/api/v1/users", require("./routes/userRoute"));
 
 //port
-const PORT = 8080 || process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 //listen server
 app.listen(PORT, () => {
