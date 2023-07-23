@@ -1,41 +1,37 @@
-.navbar .navbar-brand {
-  color: #000000 !important;
-  font-weight: bold;
-  font-size: 1.5rem;
+/* Header.css */
+
+/* Navbar container styles */
+.navbar {
+  padding: .5rem 0;
 }
 
-.nav-link {
-  font-size: 1.2rem;
-}
-
-.navbar h6 {
-  margin-top: 0px;
-  margin-right: 20px;
-}
-.navbar-brand img {
-  width: 200px;
+/* Logo styles */
+.header-logo {
   height: 40px;
-  display: block; 
-  margin: 0 auto 15px; 
-}
-.nav-item {
-  display: flex;
-  flex-direction: row important; /* Override the default direction */
-  align-items: center;
-  color: #fff; /* For white username color */
 }
 
-.nav-item .btn-danger {
-  margin-left: 10px; /* Adjust the space as per your requirement */
+/* Navbar toggler styles */
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.25rem;
 }
- 
+
+/* User info styles */
 .user-info {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between; /* distributes the items along the line */
+  gap: 5px; /* gives a small gap between items */
 }
 
-.logout-button {
+.user-info .username {
+  color: #fff;
+   
+}
+
+.user-info .button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,7 +43,6 @@
   width: 40px;
   height: 40px;
 }
-
 
  
 /* On smaller screens */

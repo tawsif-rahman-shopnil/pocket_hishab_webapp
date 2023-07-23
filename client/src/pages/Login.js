@@ -44,8 +44,9 @@ const Login = () => {
           <Input type="password" required />
           </Form.Item>
           <div className="d-flex justify-content-between">
-            <button className="btn" onClick={() => navigate('/register')}>Register !</button>
             <button className="btn">Login</button>
+            <button className="btn" onClick={() => navigate('/register')}>Register !</button>
+            
           </div>
         </Form>
       </div>

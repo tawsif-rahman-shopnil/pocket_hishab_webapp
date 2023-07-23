@@ -9,13 +9,26 @@
 }
 
 /* transection page */
+
+/* Styles for the filters container */
 .filters {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 15px 20px;
-  box-shadow: 0 0 3px gray;
-  margin-bottom: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #030303;
+}
+
+/* Styles for the individual filter tabs */
+.filter-tab {
+  margin-right: 20px;
+  color: #030303;
+}
+
+/* Styles for the filter elements */
+.filter {
+  margin-right: 10px;
+  color: #030303;
 }
 /* transection page */
 

@@ -24,39 +24,40 @@ const Header = () => {
   };
 
   return (
-    <>
-      <nav className="navbar navbar-expand-lg bg-dark">
-        <div className="container-fluid">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon" />
-          </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <Link className="navbar-brand" to="/">
-              <img src="/logo.png" alt="Logo" /> 
-            </Link>
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+    <header className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container">
+        <Link className="navbar-brand" to="/">
+          <img src="/logo.png" alt="Logo" className="header-logo" />
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon" />
+        </button>
+        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item">
               <div className="user-info">
-  <UserOutlined /> {loginUser && loginUser.name}
-  <button className="btn btn-danger logout-button" onClick={logoutHandler}>
-    <FontAwesomeIcon icon={faSignOutAlt} /> Logout
-  </button>
-</div>
-
-              </li>
-            </ul>
-          </div>
+                <span className="username">
+                  <UserOutlined /> {loginUser && loginUser.name}
+                  </span>
+                  <span className="btn ">
+                    <button className="button" onClick={logoutHandler}>
+                  <FontAwesomeIcon icon={faSignOutAlt} />
+                </button>
+                </span>
+              </div>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </>
+      </div>
+    </header>
   );
 };
 
