@@ -1,28 +1,25 @@
 {
-  "name": "pocket-hishab-webapp",
+  "name": "Expanse-Management-System",
   "version": "1.0.0",
-  "description": "Pocket Hishab",
+  "description": "expanse tracker app",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\" "
+    "dev": "concurrently \"npm start\" \"npm run client\" "
   },
   "keywords": [],
-  "author": "Tawsif Rahman Shopnil",
+  "author": "Techinfoyt",
   "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
-    "concurrently": "^7.6.0",
+    "concurrently": "^7.5.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.1.3",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^6.11.1",
-    "morgan": "^1.10.0",
-    "nodemon": "^3.0.1"
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0"
   }
 }
