@@ -11,6 +11,7 @@ import axios from "axios";
 import Spinner from "./../components/Spinner";
 import moment from "moment";
 import Analytics from "../components/Analytics";
+import "../styles/Homepage.css";
 const { RangePicker } = DatePicker;
 
 const HomePage = () => {

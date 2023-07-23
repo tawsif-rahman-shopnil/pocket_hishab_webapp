@@ -23,6 +23,7 @@ const loginController = async (req, res) => {
 //Register Callback
 const registerController = async (req, res) => {
   try {
+    console.log(req.body); // Add this line to log request body
     const newUser = new userModel(req.body);
     await newUser.save();
     res.status(201).json({
@@ -30,12 +31,14 @@ const registerController = async (req, res) => {
       newUser,
     });
   } catch (error) {
+    console.log(error); // Also log the error to know more details about it
     res.status(400).json({
       success: false,
       error: error.message || 'Registration failed',
     });
   }
 };
+
 
 
 module.exports = { loginController, registerController };

@@ -1,0 +1,57 @@
+
+/* If you want to change the color of the table text as well */
+.ant-table {
+    color: #f5f5f5; /* Light text color for table */
+}
+
+/* Add New button */
+.btn.btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+/* Styling for ant design components */
+.ant-select-selector, .ant-picker, .ant-input {
+  background-color: #454545;
+  color: #f5f5f5;
+}
+
+.ant-modal-header, .ant-modal-body {
+  background-color: #454545;
+  color: #f5f5f5;
+}
+
+.ant-btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.select-dark .ant-select-selection-item, .select-dark .ant-select-item {
+    color: #333; /* Dark text color */
+}
+
+body {
+    background-color: #000; /* Set the background to dark */
+    color: #fff; /* Set the default text color to white */
+  }
+  
+  /* Targets all the specific HTML text elements */
+  h1, h2, h3, h4, h5, h6, p, a, li, span {
+    color: #fff; /* Set the color to white */
+  }
+  
+  /* Targets all form inputs */
+  input, select, textarea {
+    color: #fff; /* Set the text color to white */
+    background-color: #333; /* Set the background color to a darker shade */
+  }
+  
+  /* Targets table data */
+  td {
+    color: #fff; /* Set the text color to white */
+  }
+  
+  /* Targets antd select dropdown */
+  .ant-select-dropdown .ant-select-item {
+    color: #000000; /* Set the color to white */
+  }
+  
