@@ -32,9 +32,10 @@ const registerController = async (req, res) => {
   } catch (error) {
     res.status(400).json({
       success: false,
-      error,
+      error: error.message || 'Registration failed',
     });
   }
 };
+
 
 module.exports = { loginController, registerController };

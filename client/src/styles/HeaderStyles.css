@@ -1,6 +1,7 @@
 .navbar {
   background-color: #6f4e3742 !important;
 }
+
 .navbar .navbar-brand {
   color: #131313 !important;
   font-weight: bold;
@@ -14,4 +15,26 @@
 .navbar h6 {
   margin-top: 0px;
   margin-right: 20px;
+}
+
+/* On smaller screens */
+@media screen and (max-width: 768px) {
+  .navbar .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .navbar h6 {
+    font-size: 0.8rem;
+    margin-right: 10px;
+  }
+}
+.navbar-brand img {
+  width: 250px;
+  height: 80px;
+  display: block; 
+  margin: 0 auto 15px; 
 }

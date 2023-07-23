@@ -35,16 +35,12 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <Link className="navbar-brand" to="/">
-              Expense Management App
+            <img src="/logo.png" alt="Logo" /> 
             </Link>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                {" "}
-                <h6 className="nav-link ">
+=
                   <UserOutlined /> {loginUser && loginUser.name}
-                </h6>{" "}
-              </li>
-              <li className="nav-item">
                 <button className="btn btn-danger" onClick={logoutHandler}>
                   Logout
                 </button>

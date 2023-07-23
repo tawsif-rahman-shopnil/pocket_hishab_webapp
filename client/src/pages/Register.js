@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+import { Form, Input } from "antd"; // Add this line to import Form and Input
 import "../styles/RegisterPage.css";
 
 const Register = () => {
@@ -26,29 +27,20 @@ const Register = () => {
 
   return (
     <div className="login-box">
-      <h2>Register</h2>
-      <form onSubmit={submitHandler}>
-        <div className="user-box">
-          <input type="text" name="name" required="" />
-          <label>Name</label>
-        </div>
-        <div className="user-box">
-          <input type="email" name="email" required="" />
-          <label>Email</label>
-        </div>
-        <div className="user-box">
-          <input type="password" name="password" required="" />
-          <label>Password</label>
-        </div>
-        <Link to="#">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Register
-        </Link>
-        <Link className="signup-link" to="/login">Login Here!</Link>
-      </form>
+      <img src="/logosplash.png" alt="Logo" /> {/* Using the image */}
+      <Form layout="vertical" onFinish={submitHandler}>
+     <Form.Item label={<span style={{ color: '#98ff98' }}>Name</span>} name="name">
+       <Input type="name" required />
+     </Form.Item>   
+     <Form.Item label={<span style={{ color: '#98ff98' }}>Email</span>} name="email">
+       <Input type="email" required />
+       </Form.Item>
+       <Form.Item label={<span style={{ color: '#98ff98' }}>Password</span>} name="password">
+       <Input type="password" required />
+       </Form.Item>
+        <button className="btn">Register</button>
+        <button className="btn" onClick={() => navigate('/login')}>Already Registered? Login Here!</button>
+      </Form>
     </div>
   );
 };
