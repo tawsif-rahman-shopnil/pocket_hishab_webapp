@@ -1,10 +1,11 @@
 import React from "react";
+import "../../styles/Footer.css";
 
 const Footer = () => {
   return (
-    <div className=" bg-dark text-light p-4">
+    <div className="footer bg-dark text-light p-4">
       <h6 className="text-center text-white">
-        All rights reserved &copy; techinfoyt
+         &copy;All rights reserved by Pocket Hishab
       </h6>
     </div>
   );
