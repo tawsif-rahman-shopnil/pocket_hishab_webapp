@@ -1,5 +1,6 @@
 import React from "react";
 import { Progress } from "antd";
+
 const Analytics = ({ allTransection }) => {
   // category
   const categories = [
@@ -22,10 +23,8 @@ const Analytics = ({ allTransection }) => {
   const totalExpenseTransactions = allTransection.filter(
     (transaction) => transaction.type === "expense"
   );
-  const totalIncomePercent =
-    (totalIncomeTransactions.length / totalTransaction) * 100;
-  const totalExpensePercent =
-    (totalExpenseTransactions.length / totalTransaction) * 100;
+  const totalIncomePercent = (totalIncomeTransactions.length / totalTransaction) * 100;
+  const totalExpensePercent = (totalExpenseTransactions.length / totalTransaction) * 100;
 
   //total turnover
   const totalTurnover = allTransection.reduce(
@@ -40,18 +39,22 @@ const Analytics = ({ allTransection }) => {
     .filter((transaction) => transaction.type === "expense")
     .reduce((acc, transaction) => acc + transaction.amount, 0);
 
-  const totalIncomeTurnoverPercent =
-    (totalIncomeTurnover / totalTurnover) * 100;
-  const totalExpenseTurnoverPercent =
-    (totalExpenseTurnover / totalTurnover) * 100;
+  const totalIncomeTurnoverPercent = (totalIncomeTurnover / totalTurnover) * 100;
+  const totalExpenseTurnoverPercent = (totalExpenseTurnover / totalTurnover) * 100;
+
   return (
     <>
+      <style>
+        {`
+          .dark-text {
+            color: #333; /* Replace #333 with the dark color you want */
+          }
+        `}
+      </style>
       <div className="row m-3">
         <div className="col-md-3">
           <div className="card">
-            <div className="card-header">
-              Total Transactions : {totalTransaction}
-            </div>
+            <div className="card-header dark-text">Total Transactions : {totalTransaction}</div>
             <div className="card-body">
               <h5 className="text-success">
                 Income : {totalIncomeTransactions.length}
@@ -78,7 +81,7 @@ const Analytics = ({ allTransection }) => {
         </div>
         <div className="col-md-3">
           <div className="card">
-            <div className="card-header">Total TurnOver : {totalTurnover}</div>
+            <div className="card-header dark-text">Total TurnOver : {totalIncomeTurnover-totalExpenseTurnover}</div>
             <div className="card-body">
               <h5 className="text-success">Income : {totalIncomeTurnover}</h5>
               <h5 className="text-danger">Expense : {totalExpenseTurnover}</h5>
@@ -115,9 +118,7 @@ const Analytics = ({ allTransection }) => {
                   <div className="card-body">
                     <h6>{category}</h6>
                     <Progress
-                      percent={((amount / totalIncomeTurnover) * 100).toFixed(
-                        0
-                      )}
+                      percent={((amount / totalIncomeTurnover) * 100).toFixed(0)}
                     />
                   </div>
                 </div>
@@ -141,9 +142,7 @@ const Analytics = ({ allTransection }) => {
                   <div className="card-body">
                     <h6>{category}</h6>
                     <Progress
-                      percent={((amount / totalExpenseTurnover) * 100).toFixed(
-                        0
-                      )}
+                      percent={((amount / totalExpenseTurnover) * 100).toFixed(0)}
                     />
                   </div>
                 </div>

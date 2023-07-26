@@ -108,4 +108,6 @@ body {
   .select-frequency .ant-picker {
     color: #333; /* dark text color for select and date picker */
   }
-  
+.filters{
+  color: #686868; /* Black color */
+}
