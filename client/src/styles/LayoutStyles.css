@@ -16,4 +16,25 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  
+  /* Global styles (unchanged) */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .content {
+    padding-top: 80px; /* Increase top padding for mobile */
+    padding-bottom: 80px; /* Increase bottom padding for mobile */
+  }
+}

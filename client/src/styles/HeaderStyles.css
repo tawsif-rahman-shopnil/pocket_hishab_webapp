@@ -43,20 +43,49 @@
   width: 40px;
   height: 40px;
 }
+/* ... Other styles remain unchanged ... */
 
- 
+/* Mobile Menu Styles */
+.collapse {
+  display: none; /* Hide the mobile menu by default */
+}
+
+.show {
+  display: block; /* Show the mobile menu when the 'show' class is applied */
+}
+
 /* On smaller screens */
 @media screen and (max-width: 768px) {
-  .navbar .navbar-brand {
-    font-size: 1.2rem;
+  /* ... Other styles remain unchanged ... */
+
+  .navbar-toggler {
+    /* Mobile menu button styles */
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.25rem;
   }
 
-  .nav-link {
-    font-size: 1rem;
+  .user-info {
+    /* Adjust styles for user info on mobile */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
   }
 
-  .navbar h6 {
-    font-size: 0.8rem;
-    margin-right: 10px;
+  .user-info .username {
+    color: #fff;
+  }
+
+  .user-info .button {
+    /* Adjust button styles for mobile */
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important;
+    color: #ffffff !important;
+    visibility: visible !important;
+    border-radius: 50% !important;
+    width: 40px;
+    height: 40px;
   }
 }

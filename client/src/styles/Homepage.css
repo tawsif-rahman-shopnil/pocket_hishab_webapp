@@ -4,16 +4,16 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Disables scroll */
 }
 
 /* Full height Layout component */
 .Layout {
   height: 100%;
-  overflow: auto; /* Enable scroll if necessary within the layout, not for the whole page */
+  overflow: auto; /* Enable scroll if necessary within the layout */
   background-color: #000; /* Set the background to dark */
   color: #fff; /* Set the default text color to white */
 }
+
 
 /* Change background of table rows */
 .ant-table-row {
@@ -43,7 +43,7 @@ html {
 
 /* If you want to change the color of the table text as well */
 .ant-table {
-  color: #000000; /* Light text color for table */
+  color: #fbf8f8; /* Light text color for table */
 }
 
 /* Add New button */
@@ -132,4 +132,82 @@ td {
 
 .filters {
   color: #686868; /* Black color */
+}
+
+/* Customize Edit and Delete icons */
+.anticon-edit {
+  color: rgb(255, 179, 0); /* Yellow color for Edit icon */
+}
+
+.anticon-delete {
+  color: rgb(218, 0, 0); /* Red color for Delete icon */
+}
+/* ... Rest of the styles ... */
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  /* Add your mobile-specific styles here */
+  /* For example, you can make the table scrollable and change the font size */
+  .ant-table-thead > tr > th {
+    padding: 8px 12px; /* Example padding for table headers on mobile */
+  }
+
+  .ant-table-scroll {
+    overflow-x: auto; /* Enable horizontal scrolling for small screens */
+  }
+
+  .ant-table {
+    font-size: 14px; /* Example font size for table on mobile */
+  }
+
+  /* Customize the Edit and Delete icons on mobile */
+  .anticon-edit {
+    font-size: 20px; /* Example font size for Edit icon on mobile */
+  }
+
+  .anticon-delete {
+    font-size: 20px; /* Example font size for Delete icon on mobile */
+  }
+}
+
+/* ... Rest of the styles ... */
+
+/* On smaller screens */
+@media screen and (max-width: 768px) {
+  /* Container styles for mobile */
+  .container {
+    padding: 10px;
+  }
+
+  /* Filters container styles for mobile */
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* Adjust individual filter elements for mobile */
+  .filters > div {
+    flex: 1 1 100%;
+  }
+
+  /* Styles for the 'Add New' button on mobile */
+  .btn.btn-primary {
+    width: 100%;
+  }
+
+  /* Table styles for mobile */
+  .ant-table-thead > tr > th {
+    text-align: center; /* Center align table headers on mobile */
+    white-space: nowrap; /* Prevent table header text from wrapping */
+    overflow: hidden; /* Hide any overflow in the table header */
+    text-overflow: ellipsis; /* Show ellipsis (...) when the text overflows */
+  }
+
+  .ant-table-row > td {
+    text-align: center; /* Center align table cells on mobile */
+    white-space: nowrap; /* Prevent table cell text from wrapping */
+    overflow: hidden; /* Hide any overflow in the table cells */
+    text-overflow: ellipsis; /* Show ellipsis (...) when the text overflows */
+  }
 }
