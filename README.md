@@ -80,18 +80,21 @@
 
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><span style="font-size:19px;line-height:150%;">Each of these pages has been carefully designed and developed to offer the best user experience, providing an easy-to-use interface for managing personal finances efficiently. The combination of these features results in a comprehensive Expense Tracker that caters to the varying needs of its users.</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><span style="font-size:19px;line-height:150%;">&nbsp;</span></p>
-![screencapture-192-168-1-62-3000-2023-07-26-23_52_02](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/1676eddb-d040-4f53-8a0f-cd99bbb59b49)
-![screencapture-192-168-1-62-3000-2023-07-26-23_52_19](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/e47f0e11-8fce-4a87-9bb0-1153ac90c8ca)
+
 
 
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><span style="font-size:21px;line-height:150%;">Chapter 4: System Architecture</span></strong></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><em><span style="font-size:19px;line-height:150%;">Use Case Diagram:</span></em></strong><span style="font-size:19px;line-height:150%;">&nbsp;A comprehensive use case diagram representing the interactions between users and the system provides an overview of how different entities interact with the system and the potential scenarios.</span></p>
-![Untitled Diagram drawio (3)](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/7f54c28e-a2e1-4624-82cd-79b319a0699a)
-
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:center;line-height:150%;'><br></p>
+
+
+![Untitled Diagram drawio (3)](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/48243143-7d86-45a1-a63f-69524a9c2f27)
+
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><em><span style="font-size:19px;line-height:150%;">Database Schema Design</span></em></strong><span style="font-size:19px;line-height:150%;">: The design and structure of the MongoDB database schema depict the data model and relationships. This schema illustrates how data is stored, connected, and manipulated within the application.</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><span style="font-size:21px;line-height:150%;">&nbsp;</span></strong></p>
-![Picture1](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/77014df1-ce43-446f-aea6-21c6ccdfcd8a)
+
+
+![Picture1](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/afa7e363-1e33-44d9-88a2-55a979847e27)
 
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><span style="font-size:21px;line-height:150%;">Chapter 5: Discussion</span></strong></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><em><span style="font-size:19px;line-height:150%;">Justifying Design Choices:</span></em></strong><span style="font-size:19px;line-height:150%;">&nbsp;This segment discusses the reasoning behind specific design choices made during the project, such as the use of the MERN stack, the choice of database, etc. These decisions were made keeping in mind the requirement of real-time updates, a user-friendly interface, and efficient data storage and retrieval.</span></p>
