@@ -88,13 +88,15 @@
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:center;line-height:150%;'><br></p>
 
 
-![Untitled Diagram drawio (3)](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/48243143-7d86-45a1-a63f-69524a9c2f27)
+![Untitled Diagram drawio](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/53c83454-1155-4f3a-a03a-af0c24832043)
+
 
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><em><span style="font-size:19px;line-height:150%;">Database Schema Design</span></em></strong><span style="font-size:19px;line-height:150%;">: The design and structure of the MongoDB database schema depict the data model and relationships. This schema illustrates how data is stored, connected, and manipulated within the application.</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><span style="font-size:21px;line-height:150%;">&nbsp;</span></strong></p>
 
 
-![Picture1](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/afa7e363-1e33-44d9-88a2-55a979847e27)
+![Picture1](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/05b692eb-6961-4e0a-84d1-b91a8bc624fc)
+
 
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><span style="font-size:21px;line-height:150%;">Chapter 5: Discussion</span></strong></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><em><span style="font-size:19px;line-height:150%;">Justifying Design Choices:</span></em></strong><span style="font-size:19px;line-height:150%;">&nbsp;This segment discusses the reasoning behind specific design choices made during the project, such as the use of the MERN stack, the choice of database, etc. These decisions were made keeping in mind the requirement of real-time updates, a user-friendly interface, and efficient data storage and retrieval.</span></p>
