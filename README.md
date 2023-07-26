@@ -1,8 +1,6 @@
 ![pocket hishab](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/326bbbd4-77b9-4d1a-bc72-0dfeecc37647)
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:center;'><br></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:center;line-height:150%;'><strong><span style="font-size:27px;line-height:150%;font-family:Barlow;color:#538135;">Pocket Hishab - Expense Tracker with M.E.R.N.</span></strong></p>
-![big-4](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/19eda087-e25c-4bd0-aa58-1b73abe32269)
-
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><span style="font-size:19px;line-height:150%;">Course Title: &nbsp;</span></strong><span style="font-size:19px;line-height:150%;">Software Development for Web Application Sessional</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><span style="font-size:19px;line-height:150%;">Course Code:&nbsp;</span></strong><span style="font-size:19px;line-height:150%;">CSE-410</span></p>
