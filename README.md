@@ -68,8 +68,8 @@
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><br></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><strong><em><span style="font-size:19px;line-height:150%;">Registration Page:</span></em></strong><span style="font-size:19px;line-height:150%;">&nbsp;For new users, the registration page allows them to create a new account on the Expense Tracker. The registration process is straightforward and requires the user to input essential details such as their name, email, and password. Once the registration is successful, users can immediately start using the application. The registration page ensures that new users can quickly join the platform and start managing their expenses.</span></p>
 
-![screencapture-192-168-1-62-3000-2023-07-26-23_52_19](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/1f2f053a-f31c-455a-aa4b-df7f070463df)
 
+![screencapture-localhost-3000-register-2023-07-24-01_58_49](https://github.com/tawsif-rahman-shopnil/pocket_hishab_webapp/assets/76777358/60228028-1b09-4fa2-bee5-862a840c5a4c)
 
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><span style="font-size:19px;line-height:150%;">&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><br></p>
