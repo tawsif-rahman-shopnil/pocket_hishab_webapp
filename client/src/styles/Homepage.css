@@ -1,47 +1,49 @@
-  /* Full height */
-  body,
-  html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Disables scroll */
-  }
-  
-  /* Full height Layout component */
-  .Layout {
-    height: 100%;
-    overflow: auto; /* Enable scroll if necessary within the layout, not for whole page */
-    background-color: #000; /* Set the background to dark */
-    color: #fff; /* Set the default text color to white */
-  }
-  
+/* Full height */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Disables scroll */
+}
+
+/* Full height Layout component */
+.Layout {
+  height: 100%;
+  overflow: auto; /* Enable scroll if necessary within the layout, not for the whole page */
+  background-color: #000; /* Set the background to dark */
+  color: #fff; /* Set the default text color to white */
+}
+
 /* Change background of table rows */
 .ant-table-row {
-    background-color: #333; /* Dark background */
-  }
-  
-  /* Change color of table text */
-  .ant-table-row > td {
-    color: #fff; /* White text */
-  }
-  .ant-table-row:hover > td {
-    color: #000000; /* White text */
-  }
-  /* Change color of table headers */
-  .ant-table-thead > tr > th {
-    background-color: #555; /* Slightly lighter than row background for contrast */
-    color: #fff; /* White text */
-  }
-  
+  background-color: #333; /* Dark background */
+}
 
-  /* Style for hovered table row */
-  .ant-table-row:hover {
-    background-color: #555; /* Slightly lighter when hovered */
-  }
-  
+/* Change color of table text */
+.ant-table-row > td {
+  color: #fff; /* White text */
+}
+
+/* Change color of table headers */
+.ant-table-thead > tr > th {
+  background-color: #555; /* Slightly lighter than row background for contrast */
+  color: #fff; /* White text */
+}
+
+/* Style for hovered table row */
+.ant-table-tbody tr:hover {
+  background-color: #555; /* Slightly lighter when hovered */
+}
+
+/* Show Date column's text in dark color when hovered */
+.ant-table-tbody tr:hover .ant-table-cell {
+  color: #333; /* Dark color for the Date column text when hovered */
+}
+
 /* If you want to change the color of the table text as well */
 .ant-table {
-    color: #000000; /* Light text color for table */
+  color: #000000; /* Light text color for table */
 }
 
 /* Add New button */
@@ -51,12 +53,15 @@
 }
 
 /* Styling for ant design components */
-.ant-select-selector, .ant-picker, .ant-input {
+.ant-select-selector,
+.ant-picker,
+.ant-input {
   background-color: #454545;
   color: #363636;
 }
 
-.ant-modal-header, .ant-modal-body {
+.ant-modal-header,
+.ant-modal-body {
   background-color: #454545;
   color: #363636;
 }
@@ -65,49 +70,66 @@
   background-color: #28a745;
   border-color: #28a745;
 }
-.select-dark .ant-select-selection-item, .select-dark .ant-select-item {
-    color: #333; /* Dark text color */
+
+.select-dark .ant-select-selection-item,
+.select-dark .ant-select-item {
+  color: #333; /* Dark text color */
 }
 
+/* Target other HTML text elements */
 body {
-    background-color: #000; /* Set the background to dark */
-    color: #fff; /* Set the default text color to white */
-  }
-  
-  /* Targets all the specific HTML text elements */
-  h1, h2, h3, h4, h5, h6, p, a, li, span {
-    color: #fff; /* Set the color to white */
-  }
-  
-  /* Targets all form inputs */
-  input, select, textarea {
-    color: #fff; /* Set the text color to white */
-    background-color: #333; /* Set the background color to a darker shade */
-  }
-  
-  /* Targets table data */
-  td {
-    color: #030303; /* Set the text color to white */
-  }
-  
-  /* Targets antd select dropdown */
-  .ant-select-dropdown .ant-select-item {
-    color: #000000; /* Set the color to white */
-  }
-  /* Change color of icons */
-.anticon {
-    color: #686868; /* Black color */
-  }
-  /* homepage.css */
+  background-color: #000; /* Set the background to dark */
+  color: #fff; /* Set the default text color to white */
+}
 
-  .select-frequency {
-    color: #333; /* dark text color */
-  }
-  
-  .select-frequency .ant-select-selector, 
-  .select-frequency .ant-picker {
-    color: #333; /* dark text color for select and date picker */
-  }
-.filters{
+/* Targets all the specific HTML text elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+span {
+  color: #fff; /* Set the color to white */
+}
+
+/* Targets all form inputs */
+input,
+select,
+textarea {
+  color: #fff; /* Set the text color to white */
+  background-color: #333; /* Set the background color to a darker shade */
+}
+
+/* Targets table data */
+td {
+  color: #030303; /* Set the text color to white */
+}
+
+/* Targets antd select dropdown */
+.ant-select-dropdown .ant-select-item {
+  color: #000000; /* Set the color to white */
+}
+
+/* Change color of icons */
+.anticon {
+  color: #686868; /* Black color */
+}
+
+/* homepage.css */
+
+.select-frequency {
+  color: #333; /* dark text color */
+}
+
+.select-frequency .ant-select-selector,
+.select-frequency .ant-picker {
+  color: #333; /* dark text color for select and date picker */
+}
+
+.filters {
   color: #686868; /* Black color */
 }
